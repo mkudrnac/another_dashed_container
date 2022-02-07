@@ -1,4 +1,4 @@
-part of dashed_container;
+part of another_dashed_container;
 
 enum _DashOffsetType { Absolute, Percentage }
 
@@ -28,9 +28,7 @@ class DashOffset {
   final _DashOffsetType _dashOffsetType;
 
   double _calculate(double length) {
-    return _dashOffsetType == _DashOffsetType.Absolute
-        ? _rawVal
-        : length * _rawVal;
+    return _dashOffsetType == _DashOffsetType.Absolute ? _rawVal : length * _rawVal;
   }
 }
 

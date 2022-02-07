@@ -1,5 +1,5 @@
+import 'package:another_dashed_container/another_dashed_container.dart';
 import 'package:flutter/material.dart';
-import 'package:dashed_container/dashed_container.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 

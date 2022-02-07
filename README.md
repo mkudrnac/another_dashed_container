@@ -1,4 +1,4 @@
-# dashed_container
+# another_dashed_container
 
 A Dashed Container plugin for Flutter, easy to implement dashed line for your widgets
 
@@ -6,14 +6,14 @@ A Dashed Container plugin for Flutter, easy to implement dashed line for your wi
 ![Demo: ](screenshot.png)
 
 ## Usage
-To use plugin, just import package `import 'package:dashed_container/dashed_container.dart';`
+To use plugin, just import package `import 'package:another_dashed_container/another_dashed_container.dart';`
 
 ## Example
 You can check example directory to know how to use it like the demo image.
 
 ```dart
     import 'package:flutter/material.dart';
-    import 'package:dashed_container/dashed_container.dart';
+    import 'package:another_dashed_container/another_dashed_container.dart';
 
     void main() => runApp(MyApp());
 

@@ -1,4 +1,4 @@
-part of dashed_container;
+part of another_dashed_container;
 
 class DashPathPainter extends CustomPainter {
   final Paint mPaint;
