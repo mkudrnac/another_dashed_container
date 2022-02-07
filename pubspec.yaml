@@ -1,6 +1,6 @@
-name: dashed_container
+name: another_dashed_container
 description: A Dashed Container plugin for Flutter, easy to implement dashed line for your widgets.
-version: 1.0.1
+version: 1.0.0
 author: phuc.chau <chauminhphuc.it@gmail.com>
 homepage: https://github.com/phucgaoxam/dashed_container
 
